@@ -4,8 +4,9 @@
   "description": "Telegram bot for VPN",
  "main": "index.js",
 "scripts": {
-  "start": "node index.js"
-},
+  "start": "node vpn-bot.js"
+}
+,
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0"
   }
