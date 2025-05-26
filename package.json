@@ -1,12 +1,11 @@
 {
-  "name": "telegram-bot",
+  "name": "telegram-vpn-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for VPN",
- "main": "index.js",
-"scripts": {
-  "start": "node vpn-bot.js"
-}
-,
+  "description": "Telegram VPN bot",
+  "main": "vpn-bot.js",
+  "scripts": {
+    "start": "node vpn-bot.js"
+  },
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0"
   }
