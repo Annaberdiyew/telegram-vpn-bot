@@ -17,6 +17,7 @@ bot.onText(/\/start/, (msg) => {
     }
   };
 
+  
   bot.sendMessage(chatId, 'Hoş geldiňiz! VPN almak üçin aşakdaky düwmä basyň.', options);
 });
 
